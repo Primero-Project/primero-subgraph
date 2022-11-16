@@ -1,6 +1,6 @@
 specVersion: 0.0.4
 schema:
-  file: ./schema.graphql
+  file: schema.graphql
 dataSources:
   - kind: ethereum
     name: Primero
@@ -17,8 +17,8 @@ dataSources:
         - CourseItemCreated
       abis:
         - name: Primero
-          file: ./abis/Primero.json
+          file: Primero/abis/Primero.json
       eventHandlers:
         - event: CourseItemCreated(uint256,address,address,uint256,uint256,bool)
           handler: handleCourseItemCreated
-      file: ./src/primero.ts
+      file: Primero/Primero.wasm
