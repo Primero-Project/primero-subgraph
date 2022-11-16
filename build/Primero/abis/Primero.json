@@ -46,6 +46,24 @@
       },
       {
         "indexed": false,
+        "internalType": "string",
+        "name": "sellerName",
+        "type": "string"
+      },
+      {
+        "indexed": false,
+        "internalType": "string",
+        "name": "courseTitle",
+        "type": "string"
+      },
+      {
+        "indexed": false,
+        "internalType": "string",
+        "name": "courseDescription",
+        "type": "string"
+      },
+      {
+        "indexed": false,
         "internalType": "address",
         "name": "owner",
         "type": "address"
@@ -92,6 +110,21 @@
             "internalType": "address payable",
             "name": "seller",
             "type": "address"
+          },
+          {
+            "internalType": "string",
+            "name": "sellerName",
+            "type": "string"
+          },
+          {
+            "internalType": "string",
+            "name": "courseTitle",
+            "type": "string"
+          },
+          {
+            "internalType": "string",
+            "name": "courseDescription",
+            "type": "string"
           },
           {
             "internalType": "address payable",
@@ -299,6 +332,21 @@
             "type": "address"
           },
           {
+            "internalType": "string",
+            "name": "sellerName",
+            "type": "string"
+          },
+          {
+            "internalType": "string",
+            "name": "courseTitle",
+            "type": "string"
+          },
+          {
+            "internalType": "string",
+            "name": "courseDescription",
+            "type": "string"
+          },
+          {
             "internalType": "address payable",
             "name": "owner",
             "type": "address"
@@ -354,6 +402,21 @@
                 "internalType": "address payable",
                 "name": "seller",
                 "type": "address"
+              },
+              {
+                "internalType": "string",
+                "name": "sellerName",
+                "type": "string"
+              },
+              {
+                "internalType": "string",
+                "name": "courseTitle",
+                "type": "string"
+              },
+              {
+                "internalType": "string",
+                "name": "courseDescription",
+                "type": "string"
               },
               {
                 "internalType": "address payable",
@@ -435,6 +498,21 @@
             "type": "address"
           },
           {
+            "internalType": "string",
+            "name": "sellerName",
+            "type": "string"
+          },
+          {
+            "internalType": "string",
+            "name": "courseTitle",
+            "type": "string"
+          },
+          {
+            "internalType": "string",
+            "name": "courseDescription",
+            "type": "string"
+          },
+          {
             "internalType": "address payable",
             "name": "owner",
             "type": "address"
@@ -503,6 +581,21 @@
         "internalType": "uint256",
         "name": "price",
         "type": "uint256"
+      },
+      {
+        "internalType": "string",
+        "name": "sellerName",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "courseTitle",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "courseDescription",
+        "type": "string"
       },
       {
         "internalType": "bytes",
@@ -727,25 +820,6 @@
         "internalType": "bool",
         "name": "",
         "type": "bool"
-      }
-    ],
-    "stateMutability": "view",
-    "type": "function"
-  },
-  {
-    "inputs": [
-      {
-        "internalType": "uint256",
-        "name": "",
-        "type": "uint256"
-      }
-    ],
-    "name": "tokensHeldBalances",
-    "outputs": [
-      {
-        "internalType": "uint256",
-        "name": "",
-        "type": "uint256"
       }
     ],
     "stateMutability": "view",

@@ -2,6 +2,9 @@ type Course @entity {
   id: ID!
   courseID: BigInt!
   instructor: Bytes!
+  instructorName: String!
+  courseTitle: String!
+  courseDescription: String!
   student: [Bytes!]
   coursePrice: BigInt!
 }

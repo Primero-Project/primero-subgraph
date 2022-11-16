@@ -1,18 +1,20 @@
 {
-  "name": "primero-subgraph",
+  "name": "primerosubgraph",
   "license": "UNLICENSED",
   "scripts": {
     "codegen": "graph codegen",
     "build": "graph build",
-    "deploy": "graph deploy --node https://api.studio.thegraph.com/deploy/ primero-subgraph",
-    "create-local": "graph create --node http://localhost:8020/ primero-subgraph",
-    "remove-local": "graph remove --node http://localhost:8020/ primero-subgraph",
-    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 primero-subgraph",
+    "deploy": "graph deploy --node https://api.studio.thegraph.com/deploy/ primerosubgraph",
+    "create-local": "graph create --node http://localhost:8020/ primerosubgraph",
+    "remove-local": "graph remove --node http://localhost:8020/ primerosubgraph",
+    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 primerosubgraph",
     "test": "graph test"
   },
   "dependencies": {
     "@graphprotocol/graph-cli": "0.33.0",
     "@graphprotocol/graph-ts": "0.27.0"
   },
-  "devDependencies": { "matchstick-as": "0.5.0" }
+  "devDependencies": {
+    "matchstick-as": "0.5.0"
+  }
 }

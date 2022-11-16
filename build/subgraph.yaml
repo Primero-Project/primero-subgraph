@@ -4,11 +4,11 @@ schema:
 dataSources:
   - kind: ethereum
     name: Primero
-    network: goerli
+    network: mumbai
     source:
-      address: "0xdDfCd52230d94E0C410e1FF6A0650272a0cECED1"
+      address: "0x6c7F1A0014a68a7EBf1483691507502f92B3e241"
       abi: Primero
-      startBlock: 7959950
+      startBlock: 29182518
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.6
@@ -19,6 +19,6 @@ dataSources:
         - name: Primero
           file: Primero/abis/Primero.json
       eventHandlers:
-        - event: CourseItemCreated(uint256,address,address,uint256,uint256,bool)
+        - event: CourseItemCreated(uint256,address,string,string,string,address,uint256,uint256,bool)
           handler: handleCourseItemCreated
       file: Primero/Primero.wasm

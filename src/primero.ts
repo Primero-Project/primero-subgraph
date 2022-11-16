@@ -9,6 +9,9 @@ export function handleCourseItemCreated(course: CourseItemCreated): void {
     newCourse.courseID = course.params.courseNFTId;
     newCourse.instructor = course.params.seller;
     newCourse.coursePrice = course.params.price;
+    newCourse.instructorName = course.params.sellerName;
+    newCourse.courseTitle = course.params.courseTitle;
+    newCourse.courseDescription = course.params.courseDescription;
     // newCourse.student = course.params;
     newCourse.save();
   }
